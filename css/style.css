@@ -214,10 +214,6 @@
   border-radius: 0px 0px 4px 4px;
   text-align: center;
 }
-.team-img {
-  width: 270px;
-  height: 260px;
-}
 .team-h3 {
   font-family: Roboto;
   font-style: normal;
@@ -272,7 +268,7 @@
   line-height: 24px;
   color: #ffffff;
 }
-.footer-address-li {
+.footer-address-link {
   text-decoration: none;
   font-family: Roboto;
   font-style: normal;
@@ -282,6 +278,7 @@
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   margin-top: 9px;
+  display: block;
 }
 .logo-text-footer {
   color: #ffffff;
