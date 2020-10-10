@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
     <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="top-header">
@@ -25,7 +25,7 @@
           </li>
         </ul>
       </nav>
-      <ul class="nav-li address">
+      <ul class="address">
         <li>
           <a class="address-links" href="mailto:info@devstudio.com"
             >info@devstudio.com</a
@@ -42,14 +42,15 @@
     <main>
       <section>
         <h1 hidden>Портфолио</h1>
-        <ul>
-          <li><a href=""></a>Все</li>
-          <li><a href=""></a>Веб-сайты</li>
-          <li><a href=""></a>Приложения</li>
-          <li><a href=""></a>Дизайн</li>
-          <li><a href=""></a>Маркетинг</li>
+        <ul class="filter">
+          <li><a class="filter-links" href="">Все</a></li>
+          <li><a class="filter-links" href="">Приложения</a></li>
+          <li><a class="filter-links" href="">Дизайн</a></li>
+          <li><a class="filter-links" href="">Маркетинг</a></li>
+          <li><a class="filter-links" href="">Веб-сайты</a></li>
         </ul>
-        <ul>
+       <div class="portfolio-content">
+        <ul class="portfolio">
           <li>
             <a href="">
               <img src="./images/portfolio/image1.jpg" width="370" height="294" alt="Веб-сайт" />
@@ -71,6 +72,8 @@
               <p>Приложение</p>
             </a>
           </li>
+        </ul>
+        <ul class="portfolio">
           <li>
             <a href="">
               <img src="./images/portfolio/image4.jpg" width="370" height="294" alt="" />
@@ -92,6 +95,8 @@
               <p>Веб-сайт</p>
             </a>
           </li>
+        </ul>
+        <ul class="portfolio">
           <li>
             <a href="">
               <img src="./images/portfolio/image7.jpg" width="370" height="294" alt="" />
@@ -114,11 +119,12 @@
             </a>
           </li>
         </ul>
+       </div>
       </section>
     </main>
     <!-- подвал -->
     <footer class="footer">
-      <a class="footer_logo" href="#"
+      <a class="footer_logo" href="./index.html"
         >Web<span class="logo-text-footer">Studio</span>
       </a>
       <address id="address" class="footer-address">
